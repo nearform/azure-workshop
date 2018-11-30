@@ -18,12 +18,3 @@ server.start((err) => {
   }
   console.log('isodate-service started on port 3000')
 })
-
-
-process.on('SIGTERM', () => {
-  server.stop()
-})
-
-process.on('SIGKILL', () => {
-  server.stop()
-})

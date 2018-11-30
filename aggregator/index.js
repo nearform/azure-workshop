@@ -25,11 +25,3 @@ server.start((err) => {
   }
   console.log('aggregator started on port 8080')
 })
-
-process.on('SIGTERM', () => {
-  server.stop()
-})
-
-process.on('SIGKILL', () => {
-  server.stop()
-})

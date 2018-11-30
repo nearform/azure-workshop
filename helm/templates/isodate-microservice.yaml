@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: isodate-service
-        image: eu.gcr.io/kubernautsio/isodate-service:latest
+        image: dagonzadub/isodate-service:latest
         ports:
         - containerPort: 3000
