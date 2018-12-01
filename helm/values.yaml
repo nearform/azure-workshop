@@ -1,0 +1,4 @@
+images:
+  aggregator: dagonzadub/aggregator
+  isodate: dagonzadub/isodate-service
+  utcdate: dagonzadub/utcdate-service

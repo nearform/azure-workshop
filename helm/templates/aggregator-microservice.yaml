@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: aggregator-service
-        image: dagonzadub/aggregator:latest
+        image: {{ .Values.images.aggregator }}
         ports:
         - containerPort: 8080

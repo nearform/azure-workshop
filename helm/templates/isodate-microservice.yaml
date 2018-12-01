@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: isodate-service
-        image: dagonzadub/isodate-service:latest
+        image: {{ .Values.images.isodate }}
         ports:
         - containerPort: 3000

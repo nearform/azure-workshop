@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: utcdate-service
-        image: dagonzadub/utcdate-service:latest
+        image: {{ .Values.images.utcdate }}
         ports:
         - containerPort: 3001
