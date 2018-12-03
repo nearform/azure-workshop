@@ -1,4 +1,4 @@
-# Azure Workshop
+# Azure Kubernetes and DevOps Workshop
 
 This `README` assumes that you have a valid Azure subscription.
 
@@ -68,8 +68,8 @@ We have adapted the build pipelines to build and deploy the three images that co
 
 ## Make some changes to the app and redeploy
 
-Now it is time to change the app, push the changes to GitHub and see what happens.
+Now it is time to change the app, push the changes to GitHub and see what happens through the pipelines on Azure DevOps (https://dev.azure.com)
 
 ## Use release gates/criteria to seek for manual approval before releasing
 
-We have seen how to build a release
+We have seen how to build an artifact and release it. Now we want to configure our release pipeline to require manual releasing and seek for approval. This will require someone to manually create a release and someone else (can be the same person on this workshop) to approve the release.
