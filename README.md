@@ -1,5 +1,7 @@
 # Azure Kubernetes and DevOps Workshop
 
+This workshops shows how to deploy a fully functional existing Dockerized app (based on any technology) into Kubernetes using Azure DevOps.
+
 This `README` assumes that you have a valid Azure subscription.
 
 # Configuration
