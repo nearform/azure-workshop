@@ -14,8 +14,7 @@ server.route({
     let isoBody = await request(isoEndpoint)
     reply({
       utcDate: JSON.parse(utcBody).date,
-      isoDate: JSON.parse(isoBody).date,
-      test: 'hello world!'
+      isoDate: JSON.parse(isoBody).date
     })
   }
 })
